@@ -1,0 +1,42 @@
+.contact-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem 2rem;
+    font-family: 'Pragati Narrow', sans-serif;
+    h1 {
+        font-size: 64px;
+        line-height: 4rem;
+        margin-bottom: 2rem;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        input,
+        textarea {
+            background-color: #7E7E7E;
+            border: none;
+            padding: 1rem 2rem;
+            color: #f0efef;
+            font-weight: bolder;
+            font-size: 18px;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        textarea {
+            resize: none;
+        }
+        button {
+            background-color: #454b4d;
+            border: none;
+            border-radius: 10px;
+            padding: 1rem 3rem;
+            font-weight: bold;
+            font-size: 18px;
+            color: #f0efef;
+            width: 50%;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+nav {
+  width: 90%;
+  min-height: 10vh;
+  margin: auto;
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex: 1.5;
+}
+nav .logo img {
+  width: 60px;
+  height: 40px;
+}
+nav .logo h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+  color: #354947;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 2;
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "Teko", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #354947;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #354947;
+}
+nav ul li.login a {
+  border: 5px solid #525251;
+  border-radius: 7px;
+  color: #525251;
+  padding: 0px 20px;
+}
+nav ul li.register a {
+  padding: 5px 20px;
+  border-radius: 7px;
+  background-color: #454B4D;
+  color: #C5CACD !important;
+}
+
+section {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+section .main-content div {
+  width: 30rem;
+  height: 100%;
+}
+section .main-content h1 {
+  font-weight: 700;
+}
+
+section.home {
+  background: url("../images/background.jpg");
+  background-position: center;
+  background-origin: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

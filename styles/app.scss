@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CDCFD2;
+}
+
+@import './home';
+@import './destinations';
+@import './about';
+@import './contact';
+@import './footer';
+@import './responsive/medium';
+@import './responsive/small';
